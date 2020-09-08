@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Random Password Generator wit copy button</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+
+
+</head>
+
+<body>
+
+  <div class="inputBox">
+    <h2>Random Pasword Generator</h2>
+    <input type="text" name="" value="" id="password" placeholder="Create password" readonly>
+    <div id="btn" onclick="getPassword()">
+      Generate Password
+    </div>
+    <i class="far fa-copy fa-3x copy" onclick="copyPassword()"></i>
+  </div>
+
+  <div class="alertBox">
+
+  </div>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
+
+</html>
